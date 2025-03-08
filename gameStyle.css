@@ -54,13 +54,13 @@ img {
     font-size: x-large;
 }
 
-.msgContainer {
+.msgContainer,.resetContainer {
     padding: 10px;
     margin-top: 10px;
     text-align: center;
 }
 
-.msg {
+.msg,#btnReset {
     display: inline;
     color: aliceblue;
     background-color: rgb(12, 12, 57);
@@ -68,4 +68,5 @@ img {
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: large;
 }
