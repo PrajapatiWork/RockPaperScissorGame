@@ -24,19 +24,22 @@ const getCompChoice = () => {
 
 // show game draw
 const gameDraw = () => {
-    console.log("game is draw..");
+    msg.style.color = "white";
+    msg.style.background = "blue";
     msg.innerText = "Game was draw.Play again!";
 }
 
 //get winner        
 const showWinner = (userwin) => {
     if (userwin) {
-        console.log("you win");
+        msg.style.color = "white";
+        msg.style.background = "green";
         msg.innerText = "you win.";
         count += 1;
         userScrore.innerText = count;
     } else {
-        console.log("you lose");
+        msg.style.color = "white";
+        msg.style.background = "red";
         msg.innerText = "you lose.";
         count += 1;
         compScore.innerText = count;
