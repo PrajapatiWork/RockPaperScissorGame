@@ -10,6 +10,7 @@ These shapes are "rock", "paper", and "scissors".</p>
 </ul>
 <h3>Rules:</h3>
 <p>A rock player will defeat a scissors player ("rock crushes scissors" or occasionally "blunts scissors"), but a paper player will defeat a paper player ("paper covers rock"); a scissors player will defeat a paper player ("scissors cuts paper"). The game is tied if both players select the same shape, and it is typically repeated right away to break the draw.</p>
+
 <li>Paper beats Rock</li>
 <li>Rock beats Scissors</li>
 <li> Scissors beats Paper</li>
